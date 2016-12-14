@@ -1,0 +1,197 @@
+body {
+    background: #D2B48C;
+   
+}
+
+table.table1{
+    border: 8px solid white;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+input[readonly]{
+    background-color: #F08080;
+}
+
+table.table1 th, td{
+    vertical-align: middle;
+    text-align: center;
+    padding: 15px;
+}
+
+table.table1 td:hover{
+    background-color: #CCCCCC;
+}
+
+table.table1 tr:nth-child(even){
+    background-color: #F2F2F2;
+}
+
+table.table1 th{
+    background-color: #FFFF99;
+    color: #696969;
+    height: 30px;
+    font-size: 15pt;
+
+}
+
+table.table1 td{
+    background-color: #F08080;
+    color: white;
+    border: 3px solid white;
+}
+
+table.table2{
+    border: 8px solid white;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+table.table2 th, td{
+    vertical-align: middle;
+    text-align: center;
+    padding: 15px;
+}
+
+table.table2 tr:nth-child(even){
+    background-color: #F2F2F2;
+}
+
+table.table2 th{
+    background-color: #FFFF99;
+    color: #696969;
+    height: 30px;
+    font-size: 15pt;
+
+}
+
+table.table2 td{
+    background-color: #F08080;
+    color: white;
+    border: 3px solid white;
+}
+a{
+    color: #696969;
+}
+
+
+form{
+
+    margin: auto;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    color: white;
+    border: 4 px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    border: inset 1px solid powderblue;
+}
+h2{
+    text-align: center;
+
+}
+
+
+/*wrapper div that holds everything*/
+.wrap{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 25 px;
+
+}
+
+/*formats header of the page*/
+.header{
+
+    text-align: left;
+    padding: 25px;
+}
+.headerImg{
+    float: left;
+    width: 200px;
+
+}
+
+.headerText{
+    float:left;
+    height: 105px;
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+/*Fat Erik's Pipelist*/
+/*http://css.maxdesign.com.au/listamatic/horizontal32.htm */
+
+.navcontainer { 
+    margin-left: 30px; 
+    text-align: left;
+}
+.navcontainer1{
+    margin-left: 30px; 
+    text-align: left;
+    text-align: center;
+}
+
+.navlist
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navlist li
+{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.navlist li:before { content: "| "; }
+.navlist li:first-child:before { content: ""; }
+
+/*IE workaround*/
+/*All IE browsers*/
+* html .navlist li
+{
+    border-left: 1px solid black;
+    padding: 0 0.4em 0 0.4em;
+    margin: 0 0.4em 0 -0.4em;
+}
+
+/*Win IE browsers - hide from Mac IE\*/
+* html .navlist { height: 1%; }
+
+* html .navlist li
+{
+    display: block;
+    float: left;
+}
+
+/*End hide*/
+/*Mac IE 5*/
+* html .navlist li:first-child { border-left: 0; }
+
+/*formats footer*/
+.footer{
+
+    text-align: center;
+    padding: 25px;
+}
+
+/*formats main content*/
+.main{
+border: 1px solid gray;
+    text-align: center;
+    padding: 25px;
+}
+.calculator{
+    text-align: center;
+    padding: 25px;
+    border: 1px solid gray;
+    
+}
