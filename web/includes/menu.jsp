@@ -8,7 +8,7 @@
             <ul class="nav navbar-nav navbar-left">
                 <li><a href="index.jsp">Home</a>
                 </li>
-                <li><a href="add.jsp">Show Support</a>
+                <li><a href="read.jsp">Customers</a>
                 </li>
             </ul>
         </div>

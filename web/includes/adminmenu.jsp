@@ -7,13 +7,7 @@
         <div class="collapse navbar-collapse navbar-menubuilder">
             <ul class="nav navbar-nav navbar-left">
                 
-                <li><a href="editfaq.jsp">Edit FAQ</a>
-                </li>
-                <li><a href="updatehome">Edit Homepage</a>
-                </li>
                 <li><a href="adminadd.jsp">Add New Member</a>
-                </li>
-                <li><a href="fullcalc">Tax Records</a>
                 </li>
                 <li><a href="dashboard.jsp">Member Records</a>
                 </li>
