@@ -2,8 +2,8 @@
 
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="model.Support"%>
-<% Support visitor = (Support) request.getAttribute("Support");%>
+<%@page import="model.Customer"%>
+<% Customer customer = (Customer) request.getAttribute("Customer");%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -37,16 +37,16 @@
                             <form class="form-horizontal" name="adminaddForm" action="adminadd" method="post"> 
 
                                 <div class="form-group">
-                                    <label for="firstName" class="col-sm-2 control-label">First Name</label>
+                                    <label for="FirstName" class="col-sm-2 control-label">First Name</label>
                                     <div class="col-sm-10">
-                                        <textarea class="form-control" rows="1"type="text" name="firstName" id="firstName" required/></textarea>
+                                        <textarea class="form-control" rows="1"type="text" name="FirstName" id="FirstName" required/></textarea>
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="lastName" class="col-sm-2 control-label">Last Name</label>
+                                    <label for="LastName" class="col-sm-2 control-label">Last Name</label>
                                     <div class="col-sm-10">
-                                        <textarea class="form-control" rows="1"type="text" name="lastName" id="lastName" required/></textarea>
+                                        <textarea class="form-control" rows="1"type="text" name="LastName" id="LastName" required/></textarea>
                                     </div>
                                 </div>
 
