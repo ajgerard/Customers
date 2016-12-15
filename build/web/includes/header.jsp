@@ -9,8 +9,8 @@
     <div class="col-sm-7 col-xs-12">
        
        
-        <h1>Business name here<br>
-        <small>Shaping the future</small>
+        <h1>Business<br>
+        <small>Customer Information</small>
         </h1>
         
     </div>
